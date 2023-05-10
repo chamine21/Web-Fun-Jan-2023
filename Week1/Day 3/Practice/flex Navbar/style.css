@@ -1,0 +1,39 @@
+h1{
+    color: azure;
+    margin-left: 20px;
+    font-family: cursive;
+  }
+  .navbar{
+      width: 100%;
+     
+      background-color: grey;
+      display: flex;
+  }
+  li {
+   
+      display: inline;
+      margin-right: 20px;
+      list-style-type: none;
+     
+  }
+  a{
+      text-decoration: none;
+      color: rgb(200, 202, 202);
+     
+  }
+  ul{
+      position: absolute;
+      top: 23px;
+      left: 70%;  
+     
+  }
+  
+  .active{
+      color: azure;
+  }
+  .btn{
+      box-shadow:  5px 5px rgb(11, 1, 1);;
+      border: solid black 3px;
+      background-color: aqua;
+      color: azure;
+  }
