@@ -1,0 +1,99 @@
+.container{
+    background-color: rgb(204, 200, 200);
+    width : 100%;
+    height: 100%;
+    padding: 20px;
+
+}
+h1{
+    font-family: cursive;
+    text-align: center;
+    color: rgb(131, 127, 127);
+   
+}
+.top-nav{
+    background-color: rgb(31, 171, 236);
+   
+    padding: 20px;
+    padding-right: 20px;
+}
+#img3{
+    width: 25%;
+    background-color: azure;
+   
+}
+#img11{
+    width: 25%;
+    background-color: azure;
+    margin-left: 50px;
+}
+#img12{
+    width: 25%;
+    background-color: azure;
+    margin-left: 50px;
+}
+#photo1{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right-nav{
+    background-color: rgb(251, 247, 249);
+    padding: 20px 20px 20px 20px;
+       
+}
+#img7{
+    width: 25%;
+    padding-left: 20px;
+}
+
+#img2{
+    width: 25%;
+    background-color: azure;
+    padding-left: 0px;
+    padding-right: 70px;
+   
+   
+   
+}
+#photo2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bom-nav{
+    background-color: rgb(143, 53, 101);
+    padding: 20px 20px 20px 20px;
+      
+}
+#img35{
+    width: 25%;
+    padding-right: 104px;
+    padding-left: 37px;
+    
+}
+#img36{
+    width: 25%;
+    background-color: azure;
+    margin-right: 120px;
+
+}
+#img37{
+    width: 25%;
+    background-color: azure;  
+}
+#photo3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+
+p{
+    text-align: center;
+    color: grey;
+}
+p>a{
+    color: aqua;
+}
