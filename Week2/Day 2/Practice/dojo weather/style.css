@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+.container,.nav{
+    width: 1000px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nav ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav h1{
+    font-size: 1.5rem;
+}
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.subtitle-line{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #999;
+}

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    background-color: grey ;
+    width: auto;
+    height: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+     justify-content: space-between ;
+     flex-wrap: wrap;
+     align-content: space-around;
+     margin-bottom: 30px;
+    
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 25px;
+}
+input{
+    width: 350px;
+    height: 40px;
+    border: 3px black solid;
+   
+}
+.bt1{
+    width: 70px;
+    height: 40px;
+    margin-right: 30px ;
+    border: 3px solid black;
+    box-shadow: 7px 3px 3px black;
+    background-color: blue;
+    color: azure;
+    font-size: 15px;
+}
+.container{
+  
+  
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 30px;
+    display: flex;
+}
+.box1{
+   
+    flex: 2;
+    display: flex;
+    border: 3px solid black;
+   margin-right: 20px;
+   height: 220px;
+   
+}
+.text1{
+    flex : 1;
+    
+     align-content: flex-start;
+     margin-top: 20px;
+     margin-left: 20px;
+   
+ }
+ h2{
+     font-size: 36px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin-bottom: 20px;
+ }
+ 
+ p{
+     font-size: 20px;
+    
+ }
+ .sp1{
+     margin-left: 13px;
+     font-style: italic;
+    
+     
+ }
+ .bt2{
+     margin-top: 40px;
+     width: 90px;
+     height: 30px;
+     background-color: rgb(185, 150, 9);
+     border: 3px solid black;
+     box-shadow: 7px 3px 3px black;
+ 
+ 
+ }
+ .text2{
+    flex: 2;
+    align-content: flex-end;
+    text-align:  center;
+    margin: 60px 20px;
+    
+}
+
+
+.ss{
+    font-size: 30px;
+}
+.bt3{
+    background-color: rgb(9, 134, 61);
+    width: 200px;
+    height: 35px;
+    border: 3px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    box-shadow: 7px 5px 5px black;
+}
+.You{
+    font-weight: bold;
+
+}
+.box2{
+    flex:1;
+    border: 3px solid black;
+    height: 150px;
+}
+.container1{
+  
+  
+    margin-left: 300px;
+    margin-right: 605px;
+    padding-bottom: 30px;
+    display: flex;
+}

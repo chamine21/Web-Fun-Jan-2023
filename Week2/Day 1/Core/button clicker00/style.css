@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cursive ;
+}
+.nav-bar{
+    display: flex;
+    gap: 60px;
+    background-color: gainsboro;
+    
+    padding:10px;
+    justify-content: space-between;
+    
+    height: 50px;
+}
+.container{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.nav-title{
+display: flex;
+}
+.search-btn{
+display: flex;
+}
+.login-btn{
+display: flex;
+}
+.like-btn{
+display: flex;
+}
+
+.col{
+display: flex;
+
+}
+.row{
+display: flex;
+border: 4px black solid;
+border-radius: 5px;
+justify-content: space-between;
+padding: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 800;
+    flex-wrap: wrap;
+    font-size: 25px;
+    text-align: center;
+}
+.row1{
+    display: flex;
+}
+.big-text{
+display: flex;
+}
+.Add-btn{
+display: flex;
+
+}

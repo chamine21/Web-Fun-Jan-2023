@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Play</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {% for _ in range(times) %}
+        <div class="box {{ color }}"></div>
+    {% endfor %}
+</body>
+</html>
