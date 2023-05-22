@@ -1,0 +1,31 @@
+h1 {
+    .My {
+    
+        color: whitesmoke;
+      }
+      
+      .Cloud {
+        color:aqua ;
+      }
+      
+    background-color: black;
+    font-weight: bold;
+    font-family: cursive;
+  }
+h2{
+    color: white;
+    background-color: violet;
+    text-align: center;
+    font-family: cursive;
+    font-weight: light;
+  }
+h3 {
+    color: black;
+    background-color: cyan;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: light;
+    font-family: cursive;
+  }
+  
+  

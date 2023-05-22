@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -53,4 +54,61 @@ h1{
     margin-top: 50px;
     margin-left: 30px;
 
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.card-header{
+    background-color: aqua;
+    height: 100px;
+    width: 600px;
+}
+.user-card{
+    border: solid  gray;
+    width: 600px;
+   
+ }
+h1{
+    font-family: cursive;
+    padding-top: 10px;
+}
+.card-BODY{
+    background-color:aliceblue;
+    height: 250px;
+    width: 560px;
+   
+}
+.ab{
+    width: 12px;
+    padding-right: 8px;
+}
+.card-BODY {
+    padding: 20px;
+}
+
+.card-BODY h1,
+.card-BODY h3,
+.card-BODY div p,
+.card-body div a {
+    margin: 20px 0px;
+}
+.no{
+    text-decoration: none;
+    padding-left: 5px;
+    color: black;
+}
+.av{
+   
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 30px;
+
+>>>>>>> bea2037fac5c0a1734629586d9b386f97efe78b8
 }
