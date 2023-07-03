@@ -1,0 +1,27 @@
+INSERT INTO dojos (name) VALUES
+('Dojo A'),
+('Dojo B'),
+('Dojo C');
+DELETE FROM dojos WHERE name IN ('Dojo A', 'Dojo B', 'Dojo C');
+INSERT INTO dojos (name) VALUES
+('Dojo X'),
+('Dojo Y'),
+('Dojo Z');
+INSERT INTO ninjas (first_name, last_name, age,dojo_id)
+SELECT 'Ninja 1', 'Lastname 1', 25, id
+FROM dojos
+WHERE name = 'Dojo X';
+INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+SELECT 'Ninja 2', 'Lastname 2', 26, id
+FROM dojos
+WHERE name = 'Dojo Y';
+INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+SELECT 'Ninja 3', 'Lastname 3', 27, id
+FROM dojos
+WHERE name = 'Dojo Z';
+SELECT * FROM ninjas
+WHERE dojo_id = (SELECT id FROM dojos WHERE name = 'Dojo X');
+SELECT * FROM ninjas
+WHERE dojo_id = (SELECT id FROM dojos ORDER BY id DESC LIMIT 1);
+SELECT * FROM dojos
+WHERE id = (SELECT dojo_id FROM ninjas ORDER BY id DESC LIMIT 1);

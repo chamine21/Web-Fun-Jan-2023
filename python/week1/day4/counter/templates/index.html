@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Counter: {{ visit_count }}</h1>
+        <a href="/"> <button>Click</button> </a>
+        <a href="{{ url_for('destroy_session') }}"> <button> Clear Session </button> </a>
+        <form action='/' method='post'>    
+        </div>
+</body>
+</html>

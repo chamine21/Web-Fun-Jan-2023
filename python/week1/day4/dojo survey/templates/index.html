@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h1>Submit Form</h1>
+    <form action="/process" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="location">Dojo_Location:</label>
+           <select name="Dojo_Location" id="Dojo_Location">
+              <option value="tunis">Tunis</option>
+              <option value="Mahdia">Mahdia</option>
+              <option value="Sousse">Sousse</option>
+              <option value="Tozeur">Tozeur</option>
+           </select><br><br>
+        <label for="language">Favorite_language:</label>
+           <select name="Favorite_language" id="Favorite_language">
+             <option value="python">Python</option>
+             <option value="html">Html</option>
+             <option value="java">java</option>
+           </select><br><br>
+        <p>Comment(optional): </p>
+        <textarea name="comment" cols="40" rows="3"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
